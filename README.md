@@ -31,7 +31,7 @@ Ctrl +c
 4. Запушить структуру багрепорта на внешний репозиторий
 git add .
 git commit -m "bag report structure"
-git push origin Bag_Report
+git push -u origin Bag_Report
 
 5. Вмержить ветку Bag Reports в Main
 git checkout main
@@ -53,7 +53,7 @@ Ctrl +c
 8. Запушить структуру на внешний репозиторий
 git add checklist.txt
 git commit -m "checklist structure"
-git push origin CheckList
+git -u push origin CheckList
 
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
 go to Checklist branch
