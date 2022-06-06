@@ -6,7 +6,8 @@
 - SQL
 - Charles
 - Mobile testing
- git branch Postman; git branch Jmeter; git branch CheckList; git branch Bag_Report; git branch SQL; git branch Charles; git branch Mobile_testing;
+
+git branch Postman; git branch Jmeter; git branch CheckList; git branch Bag_Report; git branch SQL; git branch Charles; git branch Mobile_testing;
 
 2. Запушить все ветки на внешний репозиторий
  git push origin --all
@@ -25,6 +26,7 @@ cat > bug_report.txt
 9) Expected_result
 10) Attachments
 11) Notes
+
 Enter 
 Ctrl +c
 
@@ -47,6 +49,7 @@ cat > checklist.txt
 2) Action
 3) Result
 4) Comment
+
 Enter
 Ctrl +c
 
