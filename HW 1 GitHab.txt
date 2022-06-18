@@ -1,0 +1,287 @@
+JSON
+ 4. Создать внешний репозиторий c названием JSON.
+
+
+ 5. Клонировать репозиторий JSON на локальный компьютер.
+git clone https://github.com/tanyapobedinskaya/JSON.git
+
+ 6. Внутри локального JSON создать файл “new.json”.
+cd JSON
+touch new.json
+
+ 7. Добавить файл под гит.
+git add new.json
+
+ 8. Закоммитить файл.
+git commit -m "add new json file"
+
+ 9. Отправить файл на внешний GitHub репозиторий.
+git push 
+
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+vim new.json
+i
+{
+  "Name": "Pobedinskaya Tanya",
+  "Age": 23,
+  "Pets": 0,
+  "Future salary": 1234
+  }
+
+esc 
+:wq
+Enter
+
+ 11. Отправить изменения на внешний репозиторий.
+git add new.json
+git commit -m "updated file"
+git push
+
+ 12. Создать файл preferences.json
+touch preferences.json
+
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+vim preferences.json
+i
+{
+	"Movie": "Batman",
+	"TV_show": "How i mat your mother",
+	"Food": "potatoes",
+	"Season": "Spring",
+	"Country": "Canada"
+}
+
+esc 
+:wq
+Enter
+
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+touch skills.json
+vim skills.json
+i
+{ 
+	"skills": "will be)"
+}
+
+esc 
+:wq
+Enter
+
+ 15. Отправить сразу 2 файла на внешний репозиторий.
+git add preferences.json skills.json
+git commit -m "2 new files"
+git push
+
+ 16. На веб интерфейсе создать файл bug_report.json.
+Edit new file: bug_report.json
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit new file
+
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+{
+  "ID": 1,
+  "Severity": "Major",
+  "Priority": "Medium",
+  "Enviroment": "All",
+  "Preconditions": "The user is logged in ",
+  "Summary": "There is no opportunity to save changes on "My profile" page",
+  "Steps": "1. Open "My profile" page; 2. Change age in "My age" drop-down; 3. Click on "Save" button",
+  "Actual result": "The changes were not saved. The button is visually inactive. Request not sent",
+  "Expected result": "The changes are saved . The button is visually active",
+  "Attachments": "1",
+  "Notes": ""
+}
+
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit changes
+
+ 20. Синхронизировать внешний и локальный репозиторий JSON
+git pull
+
+
+XML
+ 21. Создать внешний репозиторий c названием XML.
+
+ 22. Клонировать репозиторий XML на локальный компьютер.
+git clone https://github.com/tanyapobedinskaya/XML.git
+
+ 23. Внутри локального XML создать файл “new.xml”.
+cd XML
+touch new.xml
+
+ 24. Добавить файл под гит.
+cd XML
+git add new.xml
+
+ 25. Закоммитить файл. 
+git commit -m "new xml file"
+
+ 26. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+vim new.xml
+i
+<main>
+    <name>Pobedinskaya Tatiana</name>
+    <age>23</age>
+    <pets>0</pets>
+    <salary>1234</salary>
+</main>
+
+esc 
+:wq
+Enter
+
+ 28. Отправить изменения на внешний репозиторий.
+git add new.xml
+git commit -m "updatedfile2"
+git push
+
+ 29. Создать файл preferences.xml
+touch preferences.xml
+
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+vim preferences.xml
+i
+<main>
+        <movie>Batman</movie>
+        <TVshow>HIMYM</TVshow>
+        <food>potatoes</food>
+        <season>spring</season>
+        <country>Canada</country>
+</main>
+
+esc 
+:wq
+Enter
+
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+cat > skills.xml
+<main>
+    <skills>will be)</skills>
+</main>
+
+ 32. Сделать коммит в одну строку.
+ git add preferences.xml skills.xml && git commit -m "2 new files"
+
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+git push 
+
+ 34. На веб интерфейсе создать файл bug_report.xml.
+Edit new file: bug_report.xml
+
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit new file
+
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+<main>
+  <ID>1</ID>
+  <Severity>Major</Severity>
+  <Priority>Medium</Priority>
+  <Enviroment>All</Enviroment>
+  <Preconditions>The user is logged in</Preconditions>
+  <Summary>There is no opportunity to save changes on "My profile" page"</Summary>
+  <Steps>1. Open "My profile" page; 2. Change age in "My age" drop-down; 3. Click on "Save" button</Steps>
+  <Actual_result>The changes were not saved. The button is visually inactive. Request not sent</Actual_result>
+  <Expected_result>The changes are saved . The button is visually active</Expected_result>
+  <Attachments>1</Attachments>
+  <Notes></Notes>
+</main>
+
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit changes
+
+ 38. Синхронизировать внешний и локальный репозиторий XML
+git pull
+
+
+TXT
+ 1. Создать внешний репозиторий c названием TXT.
+
+ 2. Клонировать репозиторий TXT на локальный компьютер.
+git clone https://github.com/tanyapobedinskaya/TXT.git
+
+ 3. Внутри локального TXT создать файл “new.txt”.
+touch TXT/new.txt
+
+ 4. Добавить файл под гит.
+cd TXT
+git add new.txt
+
+ 5. Закоммитить файл.
+git commit -m "new txt file"
+
+ 6. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+vim new.txt
+i
+Name : Pobedinskaya Tanya
+Age : 23
+Pets : 0
+Salary : 123
+
+esc 
+:wq
+Enter
+
+ 8. Отправить изменения на внешний репозиторий.
+git add new.txt
+git commit -m "updated file"
+git push
+
+ 9. Создать файл preferences.txt
+touch preferences.txt
+
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+vim new.txt
+i
+Movie : Batman
+TV show : HIMYM
+Food : potatoes
+Season : spring
+Country : Canada
+
+esc 
+:wq
+Enter
+
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+cat > skills.xml
+Skills : will be)
+
+ctrl+c
+
+ 12. Сделать коммит в одну строку.
+git add preferences.txt skills.txt && git commit -m "2 new files"
+
+ 13. Отправить сразу 2 файла на внешний репозиторий.
+git push
+
+ 14. На веб интерфейсе создать файл bug_report.txt.
+Edit new file: bug_report.txt
+
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit new file
+
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+ID : 1
+Severity : Major
+Priority : Medium
+Enviroment : All
+Preconditions : The user is logged in 
+Summary : There is no opportunity to save changes on "My profile" page
+Steps : 1. Open "My profile" page; 2. Change age in "My age" drop-down; 3. Click on "Save" button
+Actual result : The changes were not saved. The button is visually inactive. Request not sent
+Expected result : The changes are saved . The button is visually active
+Attachments : 1
+Notes: 
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit changes
+
+ 18. Синхронизировать внешний и локальный репозиторий TXT
+git pull
